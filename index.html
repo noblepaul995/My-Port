@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="./output.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Rowdies:wght@700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Rambla:ital,wght@0,400;0,700;1,400;1,700&family=Rosario:ital,wght@0,300..700;1,300..700&family=Rowdies:wght@300;400;700&family=Rubik+Dirt&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Rowdies:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Rowdies:wght@300;400;700&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Rosario:ital,wght@0,300..700;1,300..700&family=Rowdies:wght@300;400;700&family=Rubik+Dirt&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Rowdies:wght@300;400;700&family=Rubik+Dirt&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        .text-outline {
+            text-shadow: 
+            -3px -3px 0 #fff,  
+            3px -3px 0 #fff,  
+            -3px 3px 0 #fff,  
+            3px 3px 0 #fff;
+        }
+        .glow-pointer {
+            width: 0px; /* Invisible center */
+            height: 0px;
+            position: fixed;
+            pointer-events: none;
+            box-shadow: 0 0 20px 20px rgba(0, 128, 255, 0.6); /* Blue glow effect */
+            transition: transform 0.1s ease-out;
+        }
+    </style>
+</head>
+<body class="bg-black px-4 md:px-16 ">
+    <!-- nav -->
+    <div class="grid grid-cols-2 items-center mt-6">
+        <h1 class="text-yellow-200 font-bold text-3xl font-rowdies">NOBLE PAUL</h1>
+        <div class="hidden md:flex flex-wrap gap-4 justify-center items-center">
+            <a href="#" class="outline-none text-white font-semibold text-lg font-rubik">Home</a>
+            <a href="#about" class="outline-none text-white font-semibold text-lg font-rubik">About</a>
+            <a href="#skills" class="outline-none text-white font-semibold text-lg font-rubik">Skills</a>
+            <a href="#projects" class="outline-none text-white font-semibold text-lg font-rubik">Projects</a>
+            <a href="#contact" class="outline-none text-white font-semibold text-lg font-rubik">Contact</a>
+        </div>
+            
+    </div>
+    <!-- hero -->
+    <div class="grid md:grid-cols-2  gap-4 justify-center items-center mt-16 md:ml-24 md:mr-24 text-center md:text-left">
+        <div class="md:order-1 order-2">
+            <p class="text-white text-2xl md:text-4xl font-rowdies font-bold mb-4 md:mb-10">Howdy!</p>
+            <h1 class="text-white text-5xl md:text-7xl font-rubik-dirt mb-4 md:mb-10">This is <span class="text-sky-350">Noble Paul</span></h1>
+            <p class="text-white text-2xl md:text-4xl font-rowdies font-bold mb-6 md:mb-10">FullStack Web Developer</p>
+            <div class="flex flex-col md:flex-row gap-4">
+                <button class="bg-sky-350 px-6 py-4 rounded-3xl text-f-b-1 font-rubik font-medium text-lg transition-transform transform hover:scale-105 hover:bg-white  hover:text-slate-900 md:text-2xl">Hire Me</button>
+                <button class="px-6 py-4 rounded-3xl text-white font-rubik font-medium text-lg transition-transform transform hover:scale-105 hover:bg-white  hover:text-slate-900 md:text-2xl border-white border">My Works</button>
+            </div>
+        </div>
+        <img src="./img/Noble_Paul_Create_a_bold_and_futuristic_hero_image_for_a_full_c4aabfe0-cf9e-4b1f-9a5d-4bb3e5c79360.png" alt="" class="w-full h-auto md:order-2 order-1">
+    </div>
+    <!-- about -->
+    <div id="about" class="mt-32 grid md:grid-cols-2 gap-8">
+        <img src="img/NOBLE_PAUL_Design_a_captivating_image_for_the__About_Me__sect_fd6ad609-a833-4e72-92f5-716c1e5d599c.png" alt="About Noble Paul" class="object-cover w-full h-full">
+        <div class="text-center md:text-left px-4 md:px-0">
+            <h1 class="text-white font-rowdies font-extrabold text-3xl md:text-5xl">About Me</h1>
+            <p class="text-white font-rosario text-lg md:text-xl font-bold mt-4">Where Code Meets Creativity: Innovating the Web, One Project at a Time.</p>
+            <p class="text-white font-rosario text-md md:text-xl font-semibold mt-6">I'm Noble Paul, a creative Full Stack Developer specializing in building dynamic, user-friendly web applications. With a strong blend of front-end and back-end skills, I bring ideas to life with clean, responsive design and robust functionality. I’m passionate about innovative solutions and always eager to collaborate on exciting projects!</p>
+            <button class="bg-sky-350 px-6 py-3 rounded-3xl text-f-b-1 font-rubik font-medium text-lg transition-transform transform hover:scale-105 hover:bg-white  hover:text-slate-900 md:text-2xl mt-4 md:mt-8">Download Resume</button>
+        </div>
+    </div>
+    <!-- skills -->
+    <div id="skills" class="mt-32 text-center px-4 ">
+        <h1 class="text-white font-rowdies font-extrabold text-3xl md:text-5xl">My Skills</h1>
+        <p class="text-white font-rowdies font-medium text-xl md:text-2xl mt-8">Harnessing a Diverse Skill Set to Bring Ideas to Life</p>
+        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-9 md:gap-32 mt-16">
+            <!-- Skill Section Example -->
+            <div>
+                <h1 class="text-white text-2xl font-rosario font-bold">HTML</h1>
+                <div class="relative w-full mt-4">
+                    <div class="absolute inset-0 flex items-center justify-center text-white text-xl font-semibold">70%</div>
+                    <div class="w-full h-2 bg-gray-800 rounded">
+                        <div class="h-2 bg-blue-500 rounded" style="width: 70%;"></div>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <h1 class="text-white text-2xl font-rosario font-bold">CSS3</h1>
+                <div class="relative w-full mt-4">
+                    <div class="absolute inset-0 flex items-center justify-center text-white text-xl font-semibold">70%</div>
+                    <div class="w-full h-2 bg-gray-800 rounded">
+                        <div class="h-2 bg-blue-500 rounded" style="width: 70%;"></div>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <h1 class="text-white text-2xl font-rosario font-bold">React</h1>
+                <div class="relative w-full mt-4">
+                    <div class="absolute inset-0 flex items-center justify-center text-white text-xl font-semibold">70%</div>
+                    <div class="w-full h-2 bg-gray-800 rounded">
+                        <div class="h-2 bg-blue-500 rounded" style="width: 70%;"></div>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <h1 class="text-white text-2xl font-rosario font-bold">JavaScript</h1>
+                <div class="relative w-full mt-4">
+                    <div class="absolute inset-0 flex items-center justify-center text-white text-xl font-semibold">70%</div>
+                    <div class="w-full h-2 bg-gray-800 rounded">
+                        <div class="h-2 bg-blue-500 rounded" style="width: 70%;"></div>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <h1 class="text-white text-2xl font-rosario font-bold">TailwindCSS</h1>
+                <div class="relative w-full mt-4">
+                    <div class="absolute inset-0 flex items-center justify-center text-white text-xl font-semibold">70%</div>
+                    <div class="w-full h-2 bg-gray-800 rounded">
+                        <div class="h-2 bg-blue-500 rounded" style="width: 70%;"></div>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <h1 class="text-white text-2xl font-rosario font-bold">Java</h1>
+                <div class="relative w-full mt-4">
+                    <div class="absolute inset-0 flex items-center justify-center text-white text-xl font-semibold">70%</div>
+                    <div class="w-full h-2 bg-gray-800 rounded">
+                        <div class="h-2 bg-blue-500 rounded" style="width: 70%;"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- my projects -->
+    <div id="projects" class="mt-32 text-center px-4">
+        <h1 class="text-white font-rowdies font-extrabold text-3xl md:text-5xl">My Projects</h1>
+        <p class="text-white font-rosario text-lg md:text-4xl mt-12">Projects Coming Soon: Currently honing my<br>skills in full stack development and excited to bring my ideas to life.</p>
+    </div>
+    <!-- contact me -->
+    <div id="contact" class="mt-32 grid md:grid-cols-2 gap-12 px-4 md:px-16">
+        <div>
+            <h1 class="text-outline font-rambla font-extrabold text-5xl md:text-8xl">Send A Request To</h1>
+            <h1 class="text-white font-rambla font-extrabold text-5xl md:text-8xl mt-4">COLLABORATE WITH ME.</h1>
+        </div>
+        <div>
+            <p class="text-white font-rambla font-bold text-xl md:text-3xl">Talk To Me</p>
+            <p class="text-white font-rambla text-md md:text-xl opacity-40 mt-4">Lorem ipsum dolor sit amet consectetur...</p>
+            <form class="grid gap-4 mt-6">
+                <input type="text" placeholder="Name" class="bg-transparent border-b text-white focus:outline-none focus:border-b-2 focus:border-sky-350">
+                <input type="text" placeholder="Email" class="bg-transparent border-b text-white focus:outline-none focus:border-b-2 focus:border-sky-350">
+                <input type="text" placeholder="Message" class="bg-transparent border-b text-white focus:outline-none focus:border-b-2 focus:border-sky-350">
+                <button type="button" class="bg-sky-350 px-6 py-4 w-full rounded-lg text-f-b-1 font-rubik font-medium text-lg transition-transform transform hover:scale-105 hover:bg-white  hover:text-slate-900 md:text-2xl">SEND</button>
+            </form>
+        </div>
+    </div>
+    <!-- footer -->
+    <div class="mt-32 text-center md:text-left px-4 md:px-16 py-16">
+        <div class="grid md:grid-cols-2 gap-4">
+            <h1 class="text-yellow-200 font-bold text-3xl font-rowdies">NOBLE PAUL</h1>
+            <div class="flex flex-wrap gap-4 justify-center md:justify-end items-center">
+                <a href="#" class="outline-none text-white font-semibold text-lg font-rubik">Facebook</a>
+                <a href="#" class="outline-none text-white font-semibold text-lg font-rubik">Twitter</a>
+                <a href="#" class="outline-none text-white font-semibold text-lg font-rubik">LinkedIn</a>
+                <a href="#" class="outline-none text-white font-semibold text-lg font-rubik">Instagram</a>
+            </div>
+        </div>
+        <hr class="my-8 opacity-25">
+        <p class="text-white opacity-50 text-center md:text-left">© 2023 Noble Paul</p>
+    </div>
+    <script>
+        // JavaScript to move glow effect with mouse
+        const glow = document.getElementById("glow");
+
+        // Update position of the glow based on the mouse movement
+        document.addEventListener("mousemove", (e) => {
+            glow.style.left = `${e.pageX}px`;
+            glow.style.top = `${e.pageY}px`;
+        });
+    </script>
+</body>
+</html>
