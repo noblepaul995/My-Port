@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="scroll-smooth ">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -41,22 +41,22 @@
         }
     </style>
 </head>
-<body class="bg-slate-950 px-5 md:px-16  ">
+<body class="bg-slate-950 px-5 md:px-16 ">
     <!-- nav -->
-    <div class="fixed top-0 left-0 w-full bg-opacity-90 z-10">
-        <div class="container mx-auto grid grid-cols-2 items-center py-4 px-4 md:px-16">
-            <h1 class="text-yellow-200 font-bold text-3xl font-rowdies">NOBLE PAUL</h1>
-            <div class="hidden md:flex gap-4 justify-end items-center">
-                <a href="#" class="outline-none text-white font-semibold text-lg font-rubik">Home</a>
-                <a href="#about" class="outline-none text-white font-semibold text-lg font-rubik">About</a>
-                <a href="#skills" class="outline-none text-white font-semibold text-lg font-rubik">Skills</a>
-                <a href="#projects" class="outline-none text-white font-semibold text-lg font-rubik">Projects</a>
-                <a href="#contact" class="outline-none text-white font-semibold text-lg font-rubik">Contact</a>
+    <div class="fixed top-0 left-0 w-full bg-opacity-90 z-10 backdrop-blur-lg px-8 ">
+        <div class="container mx-auto grid grid-cols-2 items-center py-4 ">
+            <a href="#"class="bg-gradient-to-r from-teal-300 via-blue-500 to-indigo-600 bg-clip-text text-transparent font-bold md:text-3xl text-xl font-rowdies text-nowrap">NOBLE PAUL</a>
+            <div class="hidden md:flex gap-12 justify-end items-center">
+                <a href="#" class="outline-none text-white font-semibold text-lg font-rubik md:px-2 md:rounded-lg md:transition md:hover:duration-500 md:hover:bg-[rgb(69,255,218)] md:hover:text-black md:hover:px-2 md:hover:rounded-lg">Home</a>
+                <a href="#about" class="outline-none text-white font-semibold text-lg font-rubik md:px-2 md:rounded-lg md:transition md:hover:duration-500 md:hover:bg-[rgb(69,255,218)] md:hover:text-black md:hover:px-2 md:hover:rounded-lg">About</a>
+                <a href="#skills" class="outline-none text-white font-semibold text-lg font-rubik md:px-2 md:rounded-lg md:transition md:hover:duration-500 md:hover:bg-[rgb(69,255,218)] md:hover:text-black md:hover:px-2 md:hover:rounded-lg">Skills</a>
+                <a href="#projects" class="outline-none text-white font-semibold text-lg font-rubik md:px-2 md:rounded-lg md:transition md:hover:duration-500 md:hover:bg-[rgb(69,255,218)] md:hover:text-black md:hover:px-2 md:hover:rounded-lg">Projects</a>
+                <a href="#contact" class="outline-none text-white font-semibold text-lg font-rubik md:px-2 md:rounded-lg md:transition md:hover:duration-500 md:hover:bg-[rgb(69,255,218)] md:hover:text-black md:hover:px-2 md:hover:rounded-lg">Contact</a>
             </div>
         </div>
     </div>
     <!-- hero -->
-    <div class="grid md:grid-cols-2  gap-4 justify-center items-center mt-24 md:ml-24 md:mr-24 text-center md:text-left md:p-32">
+    <div class="grid md:grid-cols-2  gap-4 justify-center items-center mt-28 md:ml-24 md:mr-24 text-center md:text-left md:p-32">
         <div class="md:order-1 order-2">
             <p class="text-white text-2xl md:text-4xl font-rowdies font-bold mb-4 md:mb-10">Howdy!</p>
             <h1 class="text-white text-5xl md:text-6xl font-rubik-dirt mb-4 md:mb-10">This is <span class="text-sky-350">Noble Paul</span></h1>
@@ -69,21 +69,24 @@
         <!-- <img src="img/hero3.webp" alt="" class="w-full h-auto md:order-2 order-1 "> -->
          <script src="https://unpkg.com/@dotlottie/player-component@2.7.12/dist/dotlottie-player.mjs" type="module"></script> 
 
-    <dotlottie-player src="https://lottie.host/42c6419b-6ec0-4ef4-9876-4ca1753c1294/tzKlyl5mlP.json" background="transparent" speed="1" class="w-full h-auto md:order-2 order-1" loop autoplay></dotlottie-player>
+    <dotlottie-player src="https://lottie.host/42c6419b-6ec0-4ef4-9876-4ca1753c1294/tzKlyl5mlP.json" background="transparent" speed="1" class="w-full h-auto md:order-2 order-1" loop autoplay loading="lazy"></dotlottie-player>
     </div>
     <!-- about -->
-    <div id="about" class="grid md:grid-cols-2 gap-8  md:p-32">
-        <img src="src/img/NOBLE_PAUL_Design_a_captivating_image_for_the__About_Me__sect_fd6ad609-a833-4e72-92f5-716c1e5d599c.png" alt="About Noble Paul" class="object-cover w-full h-full">
+    <div id="about" class="grid md:grid-cols-2 mt-24 gap-8  md:p-32">
+        <img src="img/NOBLE_PAUL_Design_a_captivating_image_for_the__About_Me__sect_fd6ad609-a833-4e72-92f5-716c1e5d599c.png" alt="About Noble Paul" class="object-cover w-full h-full" loading="lazy">
         <div class="text-center md:text-left px-4 md:px-0">
             <h1 class="bg-gradient-to-r from-teal-300 via-blue-500 to-indigo-600 bg-clip-text text-transparent font-rowdies font-extrabold text-3xl md:text-5xl">About Me</h1>
             <p class="text-white font-rosario text-lg md:text-xl font-bold mt-4">Where Code Meets Creativity: Innovating the Web, One Project at a Time.</p>
-            <p class="text-white font-rosario text-md md:text-xl font-semibold mt-6">I'm Noble Paul, a creative Full Stack Developer specializing in building dynamic, user-friendly web applications. With a strong blend of front-end and back-end skills, I bring ideas to life with clean, responsive design and robust functionality. I’m passionate about innovative solutions and always eager to collaborate on exciting projects!</p>
-            <button class="bg-sky-350 px-6 py-3 rounded-3xl text-f-b-1 font-rubik font-medium text-lg transition-transform transform hover:scale-105 hover:bg-white  hover:text-slate-900 md:text-2xl mt-4 md:mt-8 drop-shadow-[0_5px_10px_rgba(69,255,218,.5)]">Download Resume</button>
+            <p class="text-white font-rosario text-md md:text-xl font-semibold mt-8 text-justify">Hi! I’m Noble Paul, a passionate web developer specializing in the MERN stack (MongoDB, Express.js, React, and Node.js). With a strong foundation in both front-end and back-end development, I take pride in creating dynamic, responsive, and user-friendly web applications.
+                <br>
+
+            My journey in web development began starting of 2024, and since then, I’ve been committed to continuous learning and honing my craft. Whether it's building interactive user interfaces with React or designing scalable server-side logic with Node.js and Express, I love every aspect of web development.</p>
+            <button class="bg-sky-350 px-6 py-3 rounded-3xl text-f-b-1 font-rubik font-medium text-lg transition duration-300 hover:bg-white  hover:text-slate-900 md:text-2xl mt-4 md:mt-16 drop-shadow-[0_5px_10px_rgba(69,255,218,.5)]">Download Resume</button>
         </div>
     </div>
     <!-- skills -->
-    <div id="skills" class="mt-32 md:mt-0 text-center px-4 py-32 md:p-32">
-        <h1 class="text-white font-rowdies font-extrabold text-3xl md:text-5xl">My Skills</h1>
+    <div id="skills" class="mt-24 md:mt-0 text-center px-4 md:p-32">
+        <h1 class="bg-gradient-to-r from-teal-300 via-blue-500 to-indigo-600 bg-clip-text text-transparent font-rowdies font-extrabold text-3xl md:text-5xl">My Skills</h1>
         <p class="text-white font-rowdies font-medium text-xl md:text-2xl mt-8">Harnessing a Diverse Skill Set to Bring Ideas to Life</p>
         <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-9 md:gap-32 mt-16">
             <!-- Skill Section Example -->
@@ -144,15 +147,15 @@
         </div>
     </div>
     <!-- my projects -->
-    <div id="projects" class="mt-32 md:mt-0 text-center px-4 py-32 md:p-32">
-        <h1 class="text-white font-rowdies font-extrabold text-3xl md:text-5xl">My Projects</h1>
+    <div id="projects" class="mt-24 md:mt-0 text-center px-4 md:p-32">
+        <h1 class="bg-gradient-to-r from-teal-300 via-blue-500 to-indigo-600 bg-clip-text text-transparent font-rowdies font-extrabold text-3xl md:text-5xl">My Projects</h1>
         <p class="text-white font-rosario text-lg md:text-4xl mt-12">Projects Coming Soon: Currently honing my<br>skills in full stack development and excited to bring my ideas to life.</p>
     </div>
     <!-- contact me -->
-    <div id="contact" class="mt-32 md:mt-0 grid md:grid-cols-2 gap-32 px-4 md:p-32 py-32">
+    <div id="contact" class="mt-24 md:mt-0 grid md:grid-cols-2 md:gap-32 gap-16 px-4 md:p-32">
         <div>
-            <h1 class="text-outline font-rambla font-extrabold text-5xl md:text-8xl">Send A <br>Request To</h1>
-            <h1 class="text-white font-rambla font-extrabold text-5xl md:text-8xl mt-4">COLLABORATE WITH ME.</h1>
+            <h1 class="text-white font-rambla font-extrabold text-5xl md:text-8xl">Send A <br>Request To</h1>
+            <h1 class="bg-gradient-to-r from-teal-300 via-blue-500 to-indigo-600 bg-clip-text text-transparent font-rambla font-extrabold text-5xl md:text-8xl mt-4">COLLABORATE WITH ME.</h1>
         </div>
         <div>
             <p class="text-white font-rambla font-bold text-xl md:text-3xl">Talk To Me</p>
@@ -161,12 +164,12 @@
                 <input type="text" placeholder="Name" class="bg-transparent border-b text-white focus:outline-none focus:border-b-2 focus:border-sky-350">
                 <input type="text" placeholder="Email" class="bg-transparent border-b text-white focus:outline-none focus:border-b-2 focus:border-sky-350">
                 <input type="text" placeholder="Message" class="bg-transparent border-b text-white focus:outline-none focus:border-b-2 focus:border-sky-350">
-                <button type="button" class="bg-sky-350 px-6 py-4 w-full rounded-lg text-f-b-1 font-rubik font-medium text-lg transition-transform transform hover:scale-105 hover:bg-white  hover:text-slate-900 md:text-2xl drop-shadow-[0_5px_10px_rgba(69,255,218,.5)]">SEND</button>
+                <button type="button" class="bg-sky-350 px-6 py-3 rounded-2xl text-f-b-1 font-rubik font-medium text-lg transition duration-300 hover:bg-white  hover:text-slate-900 md:text-2xl mt-4 md:mt-8 drop-shadow-[0_5px_10px_rgba(69,255,218,.5)]">SEND</button>
             </form>
         </div>
     </div>
     <!-- footer -->
-    <div class="mt-32 text-center md:text-left px-4 md:px-16 py-16">
+    <div class="mt-24 text-center md:text-left px-4 md:px-16 ">
         <div class="grid md:grid-cols-2 gap-4">
             <h1 class="text-yellow-200 font-bold text-3xl font-rowdies">NOBLE PAUL</h1>
             <div class="flex flex-wrap gap-4 justify-center md:justify-end items-center">
