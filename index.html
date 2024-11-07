@@ -21,6 +21,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Rowdies:wght@300;400;700&family=Rubik+Dirt&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+    
     <script src="https://cdn.tailwindcss.com"></script>
     <style>
         .text-outline {
@@ -40,9 +41,9 @@
         }
     </style>
 </head>
-<body class="bg-black px-5 md:px-16  ">
+<body class="bg-slate-950 px-5 md:px-16  ">
     <!-- nav -->
-    <div class="fixed top-0 left-0 w-full bg-black bg-opacity-90 z-10">
+    <div class="fixed top-0 left-0 w-full bg-opacity-90 z-10">
         <div class="container mx-auto grid grid-cols-2 items-center py-4 px-4 md:px-16">
             <h1 class="text-yellow-200 font-bold text-3xl font-rowdies">NOBLE PAUL</h1>
             <div class="hidden md:flex gap-4 justify-end items-center">
@@ -55,30 +56,33 @@
         </div>
     </div>
     <!-- hero -->
-    <div class="grid md:grid-cols-2  gap-4 justify-center items-center mt-24 md:mt-32 md:ml-24 md:mr-24 text-center md:text-left">
+    <div class="grid md:grid-cols-2  gap-4 justify-center items-center mt-24 md:ml-24 md:mr-24 text-center md:text-left md:p-32">
         <div class="md:order-1 order-2">
             <p class="text-white text-2xl md:text-4xl font-rowdies font-bold mb-4 md:mb-10">Howdy!</p>
-            <h1 class="text-white text-5xl md:text-7xl font-rubik-dirt mb-4 md:mb-10">This is <span class="text-sky-350">Noble Paul</span></h1>
-            <p class="text-white text-2xl md:text-4xl font-rowdies font-bold mb-6 md:mb-10">FullStack Web Developer</p>
+            <h1 class="text-white text-5xl md:text-6xl font-rubik-dirt mb-4 md:mb-10">This is <span class="text-sky-350">Noble Paul</span></h1>
+            <p class="text-white text-2xl md:text-3xl font-rowdies font-bold mb-6 md:mb-10">FullStack Web Developer</p>
             <div class="flex flex-col md:flex-row gap-4">
                 <button class="bg-sky-350 px-6 py-4 rounded-3xl text-f-b-1 font-rubik font-medium text-lg transition-transform transform hover:scale-105 hover:bg-white  hover:text-slate-900 md:text-2xl drop-shadow-[0_5px_10px_rgba(69,255,218,.5)]">Hire Me</button>
                 <button class="px-6 py-4 rounded-3xl text-white font-rubik font-medium text-lg transition-transform transform hover:scale-105 hover:bg-white  hover:text-slate-900 md:text-2xl border-white border">My Works</button>
             </div>
         </div>
-        <img src="src/img/Noble_Paul_Create_a_bold_and_futuristic_hero_image_for_a_full_c4aabfe0-cf9e-4b1f-9a5d-4bb3e5c79360.png" alt="" class="w-full h-auto md:order-2 order-1">
+        <!-- <img src="img/hero3.webp" alt="" class="w-full h-auto md:order-2 order-1 "> -->
+         <script src="https://unpkg.com/@dotlottie/player-component@2.7.12/dist/dotlottie-player.mjs" type="module"></script> 
+
+    <dotlottie-player src="https://lottie.host/42c6419b-6ec0-4ef4-9876-4ca1753c1294/tzKlyl5mlP.json" background="transparent" speed="1" class="w-full h-auto md:order-2 order-1" loop autoplay></dotlottie-player>
     </div>
     <!-- about -->
-    <div id="about" class="mt-64 grid md:grid-cols-2 gap-8 md:py-64">
-        <img src="src/img/NOBLE_PAUL_Design_a_captivating_image_for_the__About_Me__sect_fd6ad609-a833-4e72-92f5-716c1e5d599c.png" alt="About Noble Paul" class="object-cover w-full h-full">
+    <div id="about" class="grid md:grid-cols-2 gap-8  md:p-32">
+        <img src="img/NOBLE_PAUL_Design_a_captivating_image_for_the__About_Me__sect_fd6ad609-a833-4e72-92f5-716c1e5d599c.png" alt="About Noble Paul" class="object-cover w-full h-full">
         <div class="text-center md:text-left px-4 md:px-0">
-            <h1 class="text-white font-rowdies font-extrabold text-3xl md:text-5xl">About Me</h1>
+            <h1 class="bg-gradient-to-r from-teal-300 via-blue-500 to-indigo-600 bg-clip-text text-transparent font-rowdies font-extrabold text-3xl md:text-5xl">About Me</h1>
             <p class="text-white font-rosario text-lg md:text-xl font-bold mt-4">Where Code Meets Creativity: Innovating the Web, One Project at a Time.</p>
             <p class="text-white font-rosario text-md md:text-xl font-semibold mt-6">I'm Noble Paul, a creative Full Stack Developer specializing in building dynamic, user-friendly web applications. With a strong blend of front-end and back-end skills, I bring ideas to life with clean, responsive design and robust functionality. I’m passionate about innovative solutions and always eager to collaborate on exciting projects!</p>
             <button class="bg-sky-350 px-6 py-3 rounded-3xl text-f-b-1 font-rubik font-medium text-lg transition-transform transform hover:scale-105 hover:bg-white  hover:text-slate-900 md:text-2xl mt-4 md:mt-8 drop-shadow-[0_5px_10px_rgba(69,255,218,.5)]">Download Resume</button>
         </div>
     </div>
     <!-- skills -->
-    <div id="skills" class="mt-32 text-center px-4 md:py-64 ">
+    <div id="skills" class="mt-32 md:mt-0 text-center px-4 py-32 md:p-32">
         <h1 class="text-white font-rowdies font-extrabold text-3xl md:text-5xl">My Skills</h1>
         <p class="text-white font-rowdies font-medium text-xl md:text-2xl mt-8">Harnessing a Diverse Skill Set to Bring Ideas to Life</p>
         <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-9 md:gap-32 mt-16">
@@ -140,12 +144,12 @@
         </div>
     </div>
     <!-- my projects -->
-    <div id="projects" class="mt-32 text-center px-4 md:py-64">
+    <div id="projects" class="mt-32 md:mt-0 text-center px-4 py-32 md:p-32">
         <h1 class="text-white font-rowdies font-extrabold text-3xl md:text-5xl">My Projects</h1>
         <p class="text-white font-rosario text-lg md:text-4xl mt-12">Projects Coming Soon: Currently honing my<br>skills in full stack development and excited to bring my ideas to life.</p>
     </div>
     <!-- contact me -->
-    <div id="contact" class="mt-32 grid md:grid-cols-2 gap-32 px-4 md:px-16 md:py-64">
+    <div id="contact" class="mt-32 md:mt-0 grid md:grid-cols-2 gap-32 px-4 md:p-32 py-32">
         <div>
             <h1 class="text-outline font-rambla font-extrabold text-5xl md:text-8xl">Send A <br>Request To</h1>
             <h1 class="text-white font-rambla font-extrabold text-5xl md:text-8xl mt-4">COLLABORATE WITH ME.</h1>
@@ -175,6 +179,7 @@
         <hr class="my-8 opacity-25">
         <p class="text-white opacity-50 text-center md:text-left">© 2023 Noble Paul</p>
     </div>
+    
     <script>
         // JavaScript to move glow effect with mouse
         const glow = document.getElementById("glow");
